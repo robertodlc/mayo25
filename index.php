@@ -1,5 +1,15 @@
 <?php
 
+/**
+* Procesa email
+*
+* Este metodo hace un procesamiento del email enviado por el formulario
+*
+* @return string devuelve una cadena si se ha enviado email
+* @author Roberto de la Casa
+* @version 1.0
+*/
+
 function procesarEmailFormulario() {
     $email = $_POST['email'] ?? '';
 
